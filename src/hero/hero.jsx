@@ -227,15 +227,15 @@ const Hero = () => {
 
             </div>
 
-            <div className="container" style={{ marginTop: "50px",marginBottom:"300px" }}>
+            <div className="container" style={{ marginTop: "50px" }}>
                 <div className="row">
                     <div className="col col-11 col-lg-3 mx-auto" style={{ height: "auto", backgroundColor: "#1E1E2E", borderRadius: "20px", marginTop: "20px", display: "flex", flexDirection: "column", gap: "10px" }}>
                         <div style={{ height: "10rem", width: "10rem", borderRadius: "50%", margin: "30px auto", backgroundImage: `url('/zoo4.png')`, backgroundSize: "cover", backgroundPosition: "center" }}></div>
                         <span style={{ fontSize: "28px", fontWeight: "bold", color: "white", textAlign: "center", fontFamily: "Montserrat, sans-serif" }}>Play & Win</span>
-                        <p style={{ color: "#FFFFFF", textAlign: "center", width: "90%",margin:"6px auto" }}>
+                        <p style={{ color: "#FFFFFF", textAlign: "center", width: "90%", margin: "6px auto" }}>
                             Play Games. Earn Cash. It’s that simple—try out exciting new games and get rewarded.
                         </p>
-                        <h3 style={{ color: "#27FD6A", textAlign: "center" }}>$1.00-$120.00</h3>
+                        <h3 style={{ color: "#27FD6A", textAlign: "center", fontWeight: "bold" }}>$1.00-$120.00</h3>
 
                         <button
                             className="btn"
@@ -256,66 +256,17 @@ const Hero = () => {
 
 
                     </div>
-                    {/* <div className="col col-11 col-lg-3 mx-auto" style={{ height: "auto", backgroundColor: "#1E1E2E", borderRadius: "20px", marginTop: "20px" }}>
-                        <div style={{ height: "10rem", width: "10rem", borderRadius: "50%", margin: "30px auto", backgroundImage: `url('/zoo5.png')`, backgroundSize: "cover", backgroundPosition: "center" }}></div>
-                        <span style={{ fontSize: "28px", fontWeight: "bold", color: "white", fontFamily: "Montserrat, sans-serif",marginLeft:"15%" }}>Complete offers</span>
-                        <p style={{ color: "#FFFFFF", textAlign: "center", width: "90%",margin:"6px auto" }}>
-                            Try New Apps. Get Paid Instantly. Making money has never been this easy.
-                        </p>
-                        <h3 style={{ color: "#27FD6A", textAlign: "center",marginTop:"28px" }}>$1.00 - $75.00</h3>
 
-                        <button
-                            className="btn"
-                            style={{
-                                padding: "10px 0px",
-                                borderRadius: "20px",
-                                backgroundColor: "#FFA900",
-                                border: "none",
-                                color: "#000",
-                                width: "220px",
-                                display: "block",
-                                margin: "25px auto",
-                                fontWeight: "bold"
-                            }}
-                        >
-                            Start Playing & Earning
-                        </button>
-                    </div>
-                    <div className="col col-11 col-lg-3 mx-auto" style={{ height: "auto", backgroundColor: "#1E1E2E", borderRadius: "20px", marginTop: "20px" }}>
-                        <div style={{ height: "10rem", width: "10rem", borderRadius: "50%", margin: "32px auto", backgroundImage: `url('/zoo6.png')`, backgroundSize: "cover", backgroundPosition: "center" }}></div>
-                        <span style={{ fontSize: "28px", fontWeight: "bold", color: "white", textAlign: "center", fontFamily: "Montserrat, sans-serif",marginLeft:"20%" }}>Join surveys</span>
-                        <p style={{ color: "#FFFFFF", textAlign: "center", width: "90%",margin:"31px auto" }}>
-                           Your Opinion Matters! Companies pay you to improve their products and services.
-                        </p>
-                        <h3 style={{ color: "#27FD6A", textAlign: "center" }}>$1.00-$120.00</h3>
-
-                        <button
-                            className="btn"
-                            style={{
-                                padding: "10px 0px",
-                                borderRadius: "20px",
-                                backgroundColor: "#FFA900",
-                                border: "none",
-                                color: "#000",
-                                width: "220px",
-                                display: "block",
-                                margin: "25px auto",
-                                fontWeight: "bold"
-                            }}
-                        >
-                            Start Playing & Earning
-                        </button>
-                    </div> */}
 
 
 
                     <div className="col col-11 col-lg-3 mx-auto" style={{ height: "auto", backgroundColor: "#1E1E2E", borderRadius: "20px", marginTop: "20px", display: "flex", flexDirection: "column", gap: "10px" }}>
                         <div style={{ height: "10rem", width: "10rem", borderRadius: "50%", margin: "30px auto", backgroundImage: `url('/zoo5.png')`, backgroundSize: "cover", backgroundPosition: "center" }}></div>
                         <span style={{ fontSize: "28px", fontWeight: "bold", color: "white", textAlign: "center", fontFamily: "Montserrat, sans-serif" }}>Complete offers</span>
-                        <p style={{ color: "#FFFFFF", textAlign: "center", width: "90%",margin:"6px auto" }}>
-                           Try New Apps. Get Paid Instantly. Making money has never been this easy.
+                        <p style={{ color: "#FFFFFF", textAlign: "center", width: "90%", margin: "6px auto" }}>
+                            Try New Apps. Get Paid Instantly. Making money has never been this easy.
                         </p>
-                        <h3 style={{ color: "#27FD6A", textAlign: "center" }}>$1.00 - $75.00</h3>
+                        <h3 style={{ color: "#27FD6A", textAlign: "center", fontWeight: "bold" }}>$1.00 - $75.00</h3>
 
                         <button
                             className="btn"
@@ -341,10 +292,10 @@ const Hero = () => {
                     <div className="col col-11 col-lg-3 mx-auto" style={{ height: "auto", backgroundColor: "#1E1E2E", borderRadius: "20px", marginTop: "20px", display: "flex", flexDirection: "column", gap: "10px" }}>
                         <div style={{ height: "10rem", width: "10rem", borderRadius: "50%", margin: "30px auto", backgroundImage: `url('/zoo6.png')`, backgroundSize: "cover", backgroundPosition: "center" }}></div>
                         <span style={{ fontSize: "28px", fontWeight: "bold", color: "white", textAlign: "center", fontFamily: "Montserrat, sans-serif" }}>Join surveys</span>
-                        <p style={{ color: "#FFFFFF", textAlign: "center", width: "90%",margin:"6px auto" }}>
-                           Your Opinion Matters! Companies pay you to improve their products and services.
+                        <p style={{ color: "#FFFFFF", textAlign: "center", width: "90%", margin: "6px auto" }}>
+                            Your Opinion Matters! Companies pay you to improve their products and services.
                         </p>
-                        <h3 style={{ color: "#27FD6A", textAlign: "center" }}>$1.00</h3>
+                        <h3 style={{ color: "#27FD6A", textAlign: "center", fontWeight: "bold" }}>$1.00</h3>
 
                         <button
                             className="btn"
@@ -366,14 +317,78 @@ const Hero = () => {
 
                     </div>
                 </div>
-                
 
+
+            </div>
+
+
+            {/* <div className="col col-11 col-lg-8 mx-auto">
+                <h2 style={{ color: "white", fontFamily: "Montserrat, sans-serif", textAlign: "center", marginTop: "60px", fontWeight: "bold" }}>
+
+                    EXCITING REWARDS  <span style={{ color: "#FFA900" }}>YOU'II LOVE!</span>
+                </h2>
+                <p style={{ color: "white", textAlign: "center", marginTop: "-10px" }}>Chose your favorite way to get rewarded - from
+                    popular gift card to instant Cashouts!</p>
+
+            </div>
+
+            <div className="container">
+                <div className="row">
+                    <div
+                        className="col col-11 col-lg-7"
+                        style={{
+                            backgroundImage: `url('/zoo7.png')`,
+                            backgroundPosition: "center",
+                            backgroundSize: "cover",
+                            margin: "20px auto",
+                            height:"100%",
+                            width:"auto"
+                            
+                        }}
+                    >
+                    </div>
+                </div>
+            </div> */}
+
+
+
+            <div className="container">
+                <div className="row">
+                    <div className="col col-11 col-lg-8 mx-auto text-center">
+                        <h2
+                            style={{
+                                color: "white",
+                                fontFamily: "Montserrat, sans-serif",
+                                marginTop: "60px",
+                                fontWeight: "bold",
+                            }}
+                        >
+                            EXCITING REWARDS <span style={{ color: "#FFA900" }}>YOU'LL LOVE!</span>
+                        </h2>
+                        <p style={{ color: "white", marginTop: "-10px" }}>
+                            Choose your favorite way to get rewarded – from popular gift cards to instant Cashouts!
+                        </p>
+                    </div>
+
+                    <div className="col col-11 col-lg-11 mx-auto"
+                        style={{
+                            backgroundImage: `url('/zoo7.png')`,
+                            backgroundPosition: "center",
+                            backgroundSize: "cover",
+                            marginTop: "-80px",
+                            height: "700px",
+                        }}
+                    ></div>
+                </div>
             </div>
 
 
 
 
-            
+
+
+
+
 
 
         </>
