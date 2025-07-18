@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background-color: #141524;
+ 
+  
+}
+
+
+.yo {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  background-color: #1E1E2E;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.yo > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yo span {
+  color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 865px) {
+  .yo {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .yo > div span {
+    text-align: center;
+    margin-left: 0 !important;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .content-wrapper {
+    flex-direction: column-reverse !important;
+  }
+}
+
+.second {
+  margin-top: 100px;
+}
+.yopanda{
+  margin: 10px 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .second {
+    margin-top: -30px;
+  }
+}
+/* @media screen and (min-width:768px) and (max-width:990) {
+    .yopanda{
+      margin-left: 10vw;
+    }
+} */
+
+/* @media screen and (min-width: 768px) and (max-width: 990px) {
+  .yopanda {
+    margin-left: 8vw !important;
+    margin-top: 10px;
+  }
+} */
+
