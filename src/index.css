@@ -59,17 +59,26 @@ body {
   .second {
     margin-top: -30px;
   }
-}
-/* @media screen and (min-width:768px) and (max-width:990) {
-    .yopanda{
-      margin-left: 10vw;
-    }
-} */
-
-/* @media screen and (min-width: 768px) and (max-width: 990px) {
-  .yopanda {
-    margin-left: 8vw !important;
-    margin-top: 10px;
+  .customLogocards{
+    margin-top: 30px !important;
   }
-} */
+  .youCard{
+    margin-top: -20px !important;
+  }
+}
+
+
+
+@media screen and (max-width:575px) {
+  .customway{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+  .youCard{
+    padding-left: 60px !important;
+  }
+}
 

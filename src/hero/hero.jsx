@@ -10,6 +10,39 @@ const Hero = () => {
         marginLeft: "5px"
     };
 
+
+    const cards = [
+        'zoo100.png',
+        'zoo101.png',
+        'zoo102.png',
+        'zoo103.png',
+        'zoo104.png',
+        'zoo105.png',
+        'zoo106.png',
+        'zoo107.png',
+        'zoo108.png',
+        'zoo100.png',
+        'zoo100.png',
+        'zoo100.png',
+
+
+
+
+    ]
+    const card1 = [
+        'zoo109.png',
+        'zoo110.png',
+        'zoo111.png',
+        'zoo112.png',
+        'zoo113.png',
+        'zoo114.png',
+        'zoo115.png',
+        'zoo116.png',
+        'zoo117.png',
+
+
+    ]
+
     return (
         <>
             <div style={{ width: "100vw", backgroundImage: `url('/hero.png')`, backgroundSize: "cover", backgroundPosition: "center" }}>
@@ -320,67 +353,120 @@ const Hero = () => {
 
 
             </div>
+            <div className="container" style={{ marginTop: "50px" }}>
+                <h3
+                    style={{
+                        color: "white",
+                        fontFamily: "Montserrat, sans-serif",
+                        textAlign: "center",
+                        fontWeight: "bold",
+                    }}
+                >
+                    INTEGRATED <span style={{ color: "#FFA900" }}>PARTNER</span>
+                </h3>
 
+                <div className="container py-4">
+                    <div className="row justify-content-center g-3">
+                        {cards.map((imageName, i) => (
+                            <div
+                                key={i}
+                                className="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 customway"
 
-            {/* <div className="col col-11 col-lg-8 mx-auto">
-                <h2 style={{ color: "white", fontFamily: "Montserrat, sans-serif", textAlign: "center", marginTop: "60px", fontWeight: "bold" }}>
-
-                    EXCITING REWARDS  <span style={{ color: "#FFA900" }}>YOU'II LOVE!</span>
-                </h2>
-                <p style={{ color: "white", textAlign: "center", marginTop: "-10px" }}>Chose your favorite way to get rewarded - from
-                    popular gift card to instant Cashouts!</p>
-
+                            >
+                                <img src={`/${imageName}`} alt="" style={{ width: "90%", margin: "auto" }} />
+                            </div>
+                        ))}
+                    </div>
+                </div>
             </div>
 
-            <div className="container">
-                <div className="row">
-                    <div
-                        className="col col-11 col-lg-7"
-                        style={{
-                            backgroundImage: `url('/zoo7.png')`,
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                            margin: "20px auto",
-                            height:"100%",
-                            width:"auto"
-                            
-                        }}
-                    >
+            <div className="container" style={{ margin: "20px auto" }}>
+
+                <h3
+                    style={{
+                        color: "white",
+                        fontFamily: "Montserrat, sans-serif",
+                        textAlign: "center",
+                        fontWeight: "bold",
+                    }}
+                >
+                    CASHOUT <span style={{ color: "#FFA900" }}>VIA</span>
+                </h3>
+
+                <div className="row youCard" style={{ marginTop: "20px" }}>
+                    {card1.map((img, index) => {
+                        return (
+                            <div key={index} className="col col-4 col-lg-1 mx-auto customLogocards" style={{ height: "60px" }}>
+                                <img src={`/${img}`} alt="" style={{ width: "100px", height: "auto", margin: "auto" }} />
+                            </div>
+                        );
+                    })}
+                </div>
+                <div className="col col-12 col-lg-11" style={{ margin: "90px auto" }}>
+                    <img src="/zoo700.png" class="img-fluid" alt="..." style={{ width: "100%" }}></img>
+                </div>
+            </div>
+
+
+
+
+
+            {/* Footer */}
+            {/* <div className="container-fluid text-white py-5" style={{backgroundColor:"transparent"}}>
+                <div className="container">
+                    <div className="row g-4">
+
+                        {[...Array(6)].map((_, index) => (
+                            <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2">
+                                <h5 className="text-uppercase mb-3">Column {index + 1}</h5>
+                                <ul className="list-unstyled">
+                                    <li><a href="#" className="text-white text-decoration-none">Link 1</a></li>
+                                    <li><a href="#" className="text-white text-decoration-none">Link 2</a></li>
+                                    <li><a href="#" className="text-white text-decoration-none">Link 3</a></li>
+                                    <li><a href="#" className="text-white text-decoration-none">Link 4</a></li>
+                                </ul>
+                            </div>
+                        ))}
+
                     </div>
                 </div>
             </div> */}
 
+              <div className="container-fluid" style={{height:"300px",backgroundColor:"black"}}>
 
-
-            <div className="container">
+              </div>
+            <div className="container-fluid text-white py-5" style={{backgroundColor:"transparent",height:"300px",padding:"20px"}}>
                 <div className="row">
-                    <div className="col col-11 col-lg-8 mx-auto text-center">
-                        <h2
-                            style={{
-                                color: "white",
-                                fontFamily: "Montserrat, sans-serif",
-                                marginTop: "60px",
-                                fontWeight: "bold",
-                            }}
-                        >
-                            EXCITING REWARDS <span style={{ color: "#FFA900" }}>YOU'LL LOVE!</span>
-                        </h2>
-                        <p style={{ color: "white", marginTop: "-10px" }}>
-                            Choose your favorite way to get rewarded – from popular gift cards to instant Cashouts!
-                        </p>
+                    <div className="col-12 col-sm-6 col-md-4 col-lg-4" style={{color:"white",display:"flex",flexDirection:"column",gap:"10px",padding:"10px",height:"auto"}}>
+                      <img src="/logo.png" alt="" style={{width:"312px"}}/>
+                      <p style={{width:"80%"}}>Coin Looty is an online reward website for new generation where you can start earning online today and turn your opinions into cash</p>
                     </div>
-
-                    <div className="col col-11 col-lg-11 mx-auto"
-                        style={{
-                            backgroundImage: `url('/zoo7.png')`,
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                            marginTop: "-80px",
-                            height: "700px",
-                        }}
-                    ></div>
+                    <div className="col-12 col-sm-6 col-md-4 col-lg-1" style={{color:"white"}}>item 1</div>
+                    <div className="col-12 col-sm-6 col-md-4 col-lg-1" style={{color:"white"}}>item 1</div>
+                    <div className="col-12 col-sm-6 col-md-4 col-lg-1" style={{color:"white"}}>item 1</div>
+                    <div className="col-12 col-sm-6 col-md-4 col-lg-1" style={{color:"white"}}>item 1</div>
+                    <div className="col-12 col-sm-6 col-md-4 col-lg-1" style={{color:"white"}}>item 1</div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
