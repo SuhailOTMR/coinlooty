@@ -2,6 +2,7 @@ import React from 'react'
 import Scroller from '../scroller/scroller'
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
+import Carousel from '../controll/ControlableSlide';
 const Hero = () => {
     const starStyle = {
         color: "#FFA900",
@@ -21,9 +22,9 @@ const Hero = () => {
         'zoo106.png',
         'zoo107.png',
         'zoo108.png',
-        'zoo100.png',
-        'zoo100.png',
-        'zoo100.png',
+        'soo101.png',
+        'soo2003.png',
+        'soo2002.png',
 
 
 
@@ -406,48 +407,304 @@ const Hero = () => {
                     <img src="/zoo700.png" class="img-fluid" alt="..." style={{ width: "100%" }}></img>
                 </div>
             </div>
+            {/*  */}
+
+            <Carousel />
+
+            {/*  */}
 
 
 
+            <div className="container-fluid" style={{ padding: "30px 20px", backgroundImage: `url('zoo2000.png')`, backgroundSize: "cover", backgroundPosition: "center" }}>
+                <div className="row">
+                    <div className="col col-12 col-lg-5 mx-auto" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                        <img src="/zoo2001.png" class="img-fluid" alt="..."></img>
+                    </div>
+                    <div className="col col-12 col-lg-7 mx-auto" style={{ display: "flex", justifyContent: "center", flexDirection: "column", gap: "10px" }}>
+                        <h3 style={{ fontFamily: "Montserrat, sans-serif", color: "white", fontWeight: "bold" }} className='footPara'>Join the community</h3>
+                        <p style={{ color: "white", width: "80%" }} className='footPara1'>When you sign up for Freecash, you join a community of millions of people who choose to make money online. This amazing community can help you to complete the offers fast and earn more money.
+                            In this video, one of our community members shares how to get started on Freecash now.</p>
+                    </div>
+                </div>
 
+            </div>
 
             {/* Footer */}
-            {/* <div className="container-fluid text-white py-5" style={{backgroundColor:"transparent"}}>
-                <div className="container">
-                    <div className="row g-4">
-
-                        {[...Array(6)].map((_, index) => (
-                            <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2">
-                                <h5 className="text-uppercase mb-3">Column {index + 1}</h5>
-                                <ul className="list-unstyled">
-                                    <li><a href="#" className="text-white text-decoration-none">Link 1</a></li>
-                                    <li><a href="#" className="text-white text-decoration-none">Link 2</a></li>
-                                    <li><a href="#" className="text-white text-decoration-none">Link 3</a></li>
-                                    <li><a href="#" className="text-white text-decoration-none">Link 4</a></li>
-                                </ul>
-                            </div>
-                        ))}
-
-                    </div>
-                </div>
-            </div> */}
-
-              <div className="container-fluid" style={{height:"300px",backgroundColor:"black"}}>
-
-              </div>
-            <div className="container-fluid text-white py-5" style={{backgroundColor:"transparent",height:"300px",padding:"20px"}}>
+            <div className="container-fluid text-white py-5" style={{ backgroundColor: "transparent", minHeight: "300px", position: "relative" }}>
                 <div className="row">
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-4" style={{color:"white",display:"flex",flexDirection:"column",gap:"10px",padding:"10px",height:"auto"}}>
-                      <img src="/logo.png" alt="" style={{width:"312px"}}/>
-                      <p style={{width:"80%"}}>Coin Looty is an online reward website for new generation where you can start earning online today and turn your opinions into cash</p>
+                    {/* Logo and Description */}
+                    <div className="col-12 col-lg-4 mb-4 d-flex flex-column gap-3" style={{ paddingLeft: "30px" }}>
+                        <img src="/logo.png" alt="Coin Looty Logo" className="img-fluid" style={{ maxWidth: "300px" }} />
+
+                        <p style={{ maxWidth: "90%" }}>
+                            Coin Looty is an online reward website for <span style={{ color: "#FFA900" }}>new generation</span> where you can start earning online today <span style={{ color: "#FFA900" }}>and turn your opinions</span> into cash.
+                        </p>
+
+                        {/* Icons Row */}
+                        <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+
+                            <div className="d-flex flex-wrap align-items-center gap-2" style={{ marginTop: "-20px" }}>
+                                <a href="">
+                                    <img
+                                        src='/zoo1000.png'
+                                        className="img-fluid"
+                                        style={{ width: "50px" }}
+                                    />
+                                </a>
+                            </div>
+                            <div className="d-flex flex-wrap align-items-center gap-2" style={{ marginTop: "-20px" }}>
+                                <a href="">
+                                    <img
+                                        src='/zoo1001.png'
+                                        className="img-fluid"
+                                        style={{ width: "50px" }}
+                                    />
+                                </a>
+                            </div>
+                            <div className="d-flex flex-wrap align-items-center gap-2" style={{ marginTop: "-20px" }}>
+                                <a href="">
+                                    <img
+                                        src='/zoo1002.png'
+                                        className="img-fluid"
+                                        style={{ width: "50px" }}
+                                    />
+                                </a>
+                            </div>
+                            <div className="d-flex flex-wrap align-items-center gap-2" style={{ marginTop: "-20px" }}>
+                                <a href="">
+                                    <img
+                                        src='/zoo1003.png'
+                                        className="img-fluid"
+                                        style={{ width: "50px" }}
+                                    />
+                                </a>
+                            </div>
+                            <div className="d-flex flex-wrap align-items-center gap-2" style={{ marginTop: "-20px" }}>
+                                <a href="">
+                                    <img
+                                        src='/zoo1004.png'
+                                        className="img-fluid"
+                                        style={{ width: "50px" }}
+                                    />
+                                </a>
+                            </div>
+
+                        </div>
+                        <p style={{ color: "white", width: "70%", fontWeight: "bold", textAlign: "center" }}>Copyright © 2025 CoinLooty. All Rights Reserved.</p>
                     </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-1" style={{color:"white"}}>item 1</div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-1" style={{color:"white"}}>item 1</div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-1" style={{color:"white"}}>item 1</div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-1" style={{color:"white"}}>item 1</div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-1" style={{color:"white"}}>item 1</div>
+                    <div className="col-12 col-lg-8 d-flex flex-wrap justify-content-between align-items-start">
+                        <div
+                            className="mb-3"
+                            style={{
+                                flex: "0 0 18%",
+                                minWidth: "150px",
+
+                                padding: "10px",
+                                borderRadius: "8px",
+                                textAlign: "left"
+                            }}
+                        >
+                            <div style={{ color: "white" }}>
+                                <div style={{ width: "auto" }}>
+                                    <h3 style={{ color: "white", fontFamily: "Montserrat, sans-serif", fontWeight: "bold" }}>Coinlooty
+                                    </h3>
+                                    <hr style={{ height: "4px", width: "50%", backgroundColor: "white", marginTop: "-3px" }} />
+
+                                </div>
+                                <div style={{ display: "flex", flexDirection: "column", gap: "10px", }}>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Daily Bonus</a>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Wallet / My Rewards
+                                    </a>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>How it Works
+                                    </a>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Refer & Earn
+                                    </a>
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+                        {/* <div
+                            className="mb-3"
+                            style={{
+                                flex: "0 0 18%",
+                                minWidth: "150px",
+
+                                padding: "10px",
+                                borderRadius: "8px",
+                                textAlign: "center"
+                            }}
+                        >
+                            <div style={{ color: "white" }}>
+                                <div style={{ color: "white" }}>
+                                    <div style={{ width: "auto" }}>
+                                        <h3 style={{ color: "white", fontFamily: "Montserrat, sans-serif", textAlign: "center", fontWeight: "bold" }}>Services</h3>
+                                        <hr style={{ height: "4px", width: "50%", backgroundColor: "white", marginTop: "-3px", marginLeft: "10px" }} />
+
+                                    </div>
+                                    <div style={{ display: "flex", flexDirection: "column", gap: "10px", }}>
+                                        <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none", marginLeft: "-30px" }}>Monetize</a>
+
+                                        <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none", marginLeft: "-30px" }}>Advertise</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div> */}
+
+                        <div
+                            className="mb-3"
+                            style={{
+                                flex: "0 0 18%",
+                                minWidth: "150px",
+
+                                padding: "10px",
+                                borderRadius: "8px",
+                                textAlign: "left"
+                            }}
+                        >
+                            <div style={{ color: "white" }}>
+                                <div style={{ width: "auto" }}>
+                                    <h3 style={{ color: "white", fontFamily: "Montserrat, sans-serif", fontWeight: "bold" }}>Support
+                                    </h3>
+                                    <hr style={{ height: "4px", width: "50%", backgroundColor: "white", marginTop: "-3px" }} />
+
+                                </div>
+                                <div style={{ display: "flex", flexDirection: "column", gap: "10px", }}>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Help Center/FAQ
+                                    </a>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Live chat</a>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Submit a Ticket
+                                    </a>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Email Support
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div
+                            className="mb-3"
+                            style={{
+                                flex: "0 0 18%",
+                                minWidth: "150px",
+
+                                padding: "10px",
+                                borderRadius: "8px",
+                                textAlign: "left"
+                            }}
+                        >
+                            <div style={{ color: "white" }}>
+                                <div style={{ width: "auto" }}>
+                                    <h3 style={{ color: "white", fontFamily: "Montserrat, sans-serif", fontWeight: "bold" }}>Legal</h3>
+                                    <hr style={{ height: "4px", width: "50%", backgroundColor: "white", marginTop: "-3px" }} />
+
+                                </div>
+                                <div style={{ display: "flex", flexDirection: "column", gap: "10px", }}>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Privacy Policy
+                                    </a>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Terms & Conditions
+                                    </a>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Disclaimer
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div
+                            className="mb-3"
+                            style={{
+                                flex: "0 0 18%",
+                                minWidth: "150px",
+
+                                padding: "10px",
+                                borderRadius: "8px",
+                                textAlign: "left"
+                            }}
+                        >
+                            <div style={{ color: "white" }}>
+                                <div style={{ width: "auto" }}>
+                                    <h3 style={{ color: "white", fontFamily: "Montserrat, sans-serif", fontWeight: "bold" }}>Company</h3>
+                                    <hr style={{ height: "4px", width: "50%", backgroundColor: "white", marginTop: "-3px" }} />
+
+                                </div>
+                                <div style={{ display: "flex", flexDirection: "column", gap: "10px", }}>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>About Us</a>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Team</a>
+                                    <a href="#" style={{ fontWeight: "bold", color: "white", textDecoration: "none" }}>Career</a>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        {/* <div
+                            className="mb-3"
+                            style={{
+                                flex: "0 0 18%",
+                                minWidth: "150px",
+
+                                padding: "10px",
+                                borderRadius: "8px",
+                                textAlign: "left"
+                            }}
+                        >
+                            <div style={{ color: "white" }}>
+                                
+
+
+                                <img src="/googleplay.png" alt="" style={{width:"100%",margin:"10px auto"}}/>
+                                <img src="/appstore.png" alt="" style={{width:"100%",margin:"10px auto"}}/>
+
+
+                            </div>
+                        </div> */}
+
+
+                        <div
+                            className="mb-3"
+                            style={{
+                                flex: "0 0 18%",
+                                minWidth: "150px",
+                                padding: "10px",
+                                borderRadius: "8px",
+                                textAlign: "left"
+                            }}
+                        >
+                            <div style={{ color: "white", display: "flex", flexDirection: "column", gap: "10px" }}>
+                                <img
+                                    src="/newgoogleplay.webp"
+                                    alt="Google Play"
+                                    style={{ maxWidth: "160px", width: "100%", height: "auto" }}
+                                />
+                                <img
+                                    src="/appstore.png"
+                                    alt="App Store"
+                                    style={{ maxWidth: "160px", width: "100%", height: "auto" }}
+                                />
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <hr style={{ height: "3px", width: "90vw", backgroundColor: "white", margin: "auto" }} />
+                    <p style={{ color: "white", width: "90%", margin: "10px auto" }}>When you access our sites, services, or tools, we and our authorized partners may use cookies to store information, enhancing your experience with greater speed, security, and personalized marketing.</p>
                 </div>
+
+
             </div>
+
+
 
 
 
